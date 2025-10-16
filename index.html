@@ -17,13 +17,13 @@
             sans: ['"Space Mono"', 'Menlo', 'Consolas', 'monospace'],
           },
           colors: {
-            canvas: '#050505',
-            surface: '#0d0d12',
-            outline: '#16161d',
+            canvas: '#020202',
+            surface: '#060608',
+            outline: '#12121a',
             accent: '#f4f4f5',
           },
           boxShadow: {
-            panel: '0 40px 80px -60px rgba(255,255,255,0.6)',
+            panel: '0 40px 80px -60px rgba(255,255,255,0.6)', 
           },
           letterSpacing: {
             tightest: '-0.06em',
@@ -39,51 +39,36 @@
     <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.18),transparent_60%)] mix-blend-screen"></div>
 
     <header id="top" class="relative">
-      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-8">
-        <a href="#top" class="text-sm font-bold uppercase tracking-[0.3em] text-white">Reuben // UTS</a>
-        <div class="hidden items-center gap-6 text-xs font-semibold uppercase tracking-[0.25em] text-zinc-400 md:flex">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
+        <a href="#top" class="text-sm font-bold uppercase tracking-[0.3em] text-white">Reuben Ford</a>
+        <div class="hidden items-center gap-6 text-xs font-semibold uppercase tracking-[0.25em] text-zinc-200 md:flex">
           <a href="#about" class="transition hover:text-white">About</a>
           <a href="#projects" class="transition hover:text-white">Projects</a>
           <a href="#process" class="transition hover:text-white">Process</a>
           <a href="#contact" class="transition hover:text-white">Contact</a>
         </div>
-        <a href="mailto:you@example.com" class="inline-flex items-center rounded-full border border-zinc-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:border-white hover:bg-white hover:text-black">
+        <a href="mailto:reubenford77@gmail.com" class="inline-flex items-center rounded-full border border-zinc-700 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:border-white hover:bg-white hover:text-black">
           Email Me
         </a>
       </nav>
 
-      <section class="mx-auto grid max-w-6xl gap-12 px-6 pb-24 pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8 lg:pb-32 lg:pt-24">
+      <section class="mx-auto grid max-w-6xl gap-12 px-6 pb-12 pt-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8 lg:pb-20 lg:pt-20">
         <div>
-          <span class="inline-flex items-center gap-2 rounded-full border border-zinc-700/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-zinc-400">
-            Mechanical Engineering + Applied Physics
+          <span class="inline-flex items-center gap-2 rounded-full border border-zinc-700/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-zinc-200">
+            Mechanical Engineer
           </span>
           <h1 class="mt-6 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl md:leading-[1.15]">
-            Manufacturing-led problem solver designing safer, cleaner workflows.
+            Reuben Ford
           </h1>
-          <p class="mt-6 max-w-xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-            I am Reuben, a Mechanical Engineering and Applied Physics student at the University of Technology Sydney. I design and build equipment for clean-air environments, safety cabinets, and high-usage stainless solutions. I thrive in the space where lean manufacturing principles intersect with hands-on fabrication, data, and people.
+          <p class="mt-6 max-w-xl text-sm leading-relaxed text-zinc-200 sm:text-base">
+            I am a Mechanical Engineering and Applied Physics student at the University of Technology Sydney.<br><br> I became an engineer because I believe can technology make the world a better place, and I want to be part of that change.<br><br> I have experience designing and manufacturing safety cabinets, HEPA filtration products, stainless steel welded trolleys and more. I am in the process of designing and building a hybrid rocket motor. 
           </p>
-          <div class="mt-10 flex flex-wrap gap-4">
-            <a href="#projects" class="inline-flex items-center justify-center rounded-full border border-white bg-white px-6 py-3 text-xs font-bold uppercase tracking-[0.25em] text-black transition hover:bg-black hover:text-white hover:border-white">
-              View Work
-            </a>
+          <div class="mt-8">
             <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-zinc-700 px-6 py-3 text-xs font-bold uppercase tracking-[0.25em] text-white transition hover:border-white hover:bg-white hover:text-black">
               Download CV
             </a>
           </div>
-          <div class="mt-12 grid gap-6 text-xs uppercase tracking-[0.3em] text-zinc-500 sm:grid-cols-2">
-            <div class="border-l border-zinc-800 pl-4">
-              <p class="font-bold text-white">Safety Cabinets</p>
-              <p class="mt-2 text-[11px] normal-case tracking-normal text-zinc-400">
-                Laminar flow, filtration upgrades, and compliance testing for laboratory-grade units.
-              </p>
-            </div>
-            <div class="border-l border-zinc-800 pl-4">
-              <p class="font-bold text-white">Fabrication</p>
-              <p class="mt-2 text-[11px] normal-case tracking-normal text-zinc-400">
-                Welded stainless products engineered for heavy-duty, ergonomic applications.
-              </p>
-            </div>
+          <div class="mt-12 grid gap-6 text-xs uppercase tracking-[0.3em] text-zinc-300 sm:grid-cols-2">
           </div>
         </div>
         <div class="relative">
@@ -95,49 +80,110 @@
       </section>
     </header>
 
+    <section id="projects" class="bg-surface/60 pt-0 pb-20">
+      <div class="mx-auto max-w-6xl px-6 lg:px-8">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-200">Selected Projects</h2>
+            <p class="mt-4 max-w-2xl text-2xl font-semibold text-white">
+              Field-tested builds that balance airflow science, robust fabrication, and lean execution.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-12 grid gap-8 md:grid-cols-2">
+          <article class="group h-full rounded-3xl border border-zinc-800 bg-canvas/60 p-6 transition hover:-translate-y-2 hover:border-white/40">
+            <div class="overflow-hidden rounded-2xl border border-zinc-800">
+              <img src="https://images.unsplash.com/photo-1581092160607-3a7c5a6a0544?auto=format&fit=crop&w=900&q=80" alt="Engineer inspecting airflow cabinet internals" class="h-48 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
+            </div>
+            <div class="mt-6 flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-zinc-300">
+              <span>2024</span>
+              <span class="h-px flex-1 bg-zinc-800"></span>
+              <span>Safety Cabinet Retrofit</span>
+            </div>
+            <h3 class="mt-4 text-xl font-semibold text-white">Cleanroom Safety Cabinet Upgrade Program</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-200">
+              Led airflow analysis and retrofit builds for a fleet of laminar flow cabinets. Delivered stronger containment, quieter operation, and service documentation that shortened maintenance cycles.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-200">
+              <li>- Calculated capture velocities and rebalanced filter stages.</li>
+              <li>- Designed modular service panels for rapid access and inspection.</li>
+              <li>- Trained technicians on calibration and ISO cleanroom compliance.</li>
+            </ul>
+            <a href="mailto:reubenford77@gmail.com" class="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-white transition hover:text-zinc-200">
+              Case notes &rarr;
+            </a>
+          </article>
+
+          <article class="group h-full rounded-3xl border border-zinc-800 bg-canvas/60 p-6 transition hover:-translate-y-2 hover:border-white/40">
+            <div class="overflow-hidden rounded-2xl border border-zinc-800">
+              <img src="https://images.unsplash.com/photo-1581092929650-20c92a76dac7?auto=format&fit=crop&w=900&q=80" alt="Stainless steel fabrication components" class="h-48 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
+            </div>
+            <div class="mt-6 flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-zinc-300">
+              <span>2023</span>
+              <span class="h-px flex-1 bg-zinc-800"></span>
+              <span>Stainless Systems</span>
+            </div>
+            <h3 class="mt-4 text-xl font-semibold text-white">Modular Stainless Handling Platform</h3>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-200">
+              Developed welded trolley systems that integrate pneumatic tooling, shadow boards, and sensor mounts. Improved changeover times and reduced ergonomic risk for production teams.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-200">
+              <li>- Built parametric CAD templates for rapid job quoting and fabrication.</li>
+              <li>- Introduced lean pull signals embedded into the trolley layout.</li>
+              <li>- Validated load ratings and fatigue performance with destructive tests.</li>
+            </ul>
+            <a href="mailto:reubenford77@gmail.com" class="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-white transition hover:text-zinc-200">
+              See breakdown &rarr;
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <main class="relative">
-      <section id="about" class="mx-auto max-w-6xl px-6 py-20 lg:px-8">
+      <section id="about" class="mx-auto max-w-6xl px-6 py-16 lg:px-8">
         <div class="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div class="rounded-3xl border border-zinc-800 bg-surface/80 p-8 backdrop-blur">
-            <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-400">Profile</h2>
-            <p class="mt-6 text-2xl font-semibold text-white">
+            <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-200">Profile</h2>
+            <p class="mt-4 text-2xl font-semibold text-white">
               Translating shop-floor insights into lean, data-backed improvements.
             </p>
-            <p class="mt-5 text-sm leading-relaxed text-zinc-400">
+            <p class="mt-4 text-sm leading-relaxed text-zinc-200">
               My background spans mechanical prototyping, airflow tuning, and delivering welded stainless assemblies that survive in tough environments. I document build standards, run experiments, and iterate quickly so teams can operate safer labs, cleaner production lines, and more efficient workshops.
             </p>
-            <p class="mt-4 text-sm leading-relaxed text-zinc-400">
+            <p class="mt-4 text-sm leading-relaxed text-zinc-200">
               When I am not on the shop floor you will find me mapping value streams, designing test rigs, and capturing the little process improvements that compound into major throughput gains.
             </p>
-            <div class="mt-8 grid gap-4 text-xs uppercase tracking-[0.25em] text-zinc-500 sm:grid-cols-2">
+            <div class="mt-8 grid gap-4 text-xs uppercase tracking-[0.25em] text-zinc-300 sm:grid-cols-2">
               <div class="border border-zinc-800 px-4 py-3">
-                <p class="text-[11px] text-zinc-400">Focus</p>
+                <p class="text-[11px] text-zinc-200">Focus</p>
                 <p class="mt-2 text-sm font-semibold text-white">Lean Manufacturing</p>
               </div>
               <div class="border border-zinc-800 px-4 py-3">
-                <p class="text-[11px] text-zinc-400">Toolset</p>
+                <p class="text-[11px] text-zinc-200">Toolset</p>
                 <p class="mt-2 text-sm font-semibold text-white">CAD, CFD, PLC Diagnostics</p>
               </div>
               <div class="border border-zinc-800 px-4 py-3">
-                <p class="text-[11px] text-zinc-400">Fabrication</p>
+                <p class="text-[11px] text-zinc-200">Fabrication</p>
                 <p class="mt-2 text-sm font-semibold text-white">TIG Welding, CNC Fitout</p>
               </div>
               <div class="border border-zinc-800 px-4 py-3">
-                <p class="text-[11px] text-zinc-400">Mindset</p>
+                <p class="text-[11px] text-zinc-200">Mindset</p>
                 <p class="mt-2 text-sm font-semibold text-white">Continuous Improvement</p>
               </div>
             </div>
           </div>
           <div class="space-y-6">
             <div class="rounded-3xl border border-zinc-800 bg-surface/70 p-8 backdrop-blur">
-              <h3 class="text-sm font-bold uppercase tracking-[0.25em] text-zinc-400">What drives me</h3>
-              <p class="mt-4 text-sm leading-relaxed text-zinc-400">
+              <h3 class="text-sm font-bold uppercase tracking-[0.25em] text-zinc-200">What drives me</h3>
+              <p class="mt-4 text-sm leading-relaxed text-zinc-200">
                 Clean-air equipment is only as good as the engineering discipline behind it. I enjoy untangling systems-level problems: airflow diagnostics, filter selection, control tuning, and user safety. Every project is an opportunity to apply physics fundamentals to real manufacturing lines.
               </p>
             </div>
             <div class="rounded-3xl border border-zinc-800 bg-surface/70 p-8 backdrop-blur">
-              <h3 class="text-sm font-bold uppercase tracking-[0.25em] text-zinc-400">How I work</h3>
-              <ul class="mt-4 space-y-3 text-sm text-zinc-400">
+              <h3 class="text-sm font-bold uppercase tracking-[0.25em] text-zinc-200">How I work</h3>
+              <ul class="mt-4 space-y-3 text-sm text-zinc-200">
                 <li class="flex gap-3">
                   <span class="mt-1 h-2 w-2 rounded-full bg-white"></span>
                   <span>Field research on site to gather operator feedback and collect process data.</span>
@@ -156,92 +202,28 @@
         </div>
       </section>
 
-      <section id="projects" class="bg-surface/60 py-20">
-        <div class="mx-auto max-w-6xl px-6 lg:px-8">
-          <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-400">Selected Projects</h2>
-              <p class="mt-4 max-w-2xl text-2xl font-semibold text-white">
-                Field-tested builds that balance airflow science, robust fabrication, and lean execution.
-              </p>
-            </div>
-            <a href="mailto:you@example.com" class="inline-flex items-center rounded-full border border-zinc-700 px-5 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-white transition hover:border-white hover:bg-white hover:text-black">
-              Request a walkthrough
-            </a>
-          </div>
-
-          <div class="mt-12 grid gap-8 md:grid-cols-2">
-            <article class="group h-full rounded-3xl border border-zinc-800 bg-canvas/60 p-6 transition hover:-translate-y-2 hover:border-white/40">
-              <div class="overflow-hidden rounded-2xl border border-zinc-800">
-                <img src="https://images.unsplash.com/photo-1581092160607-3a7c5a6a0544?auto=format&fit=crop&w=900&q=80" alt="Engineer inspecting airflow cabinet internals" class="h-48 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
-              </div>
-              <div class="mt-6 flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-zinc-500">
-                <span>2024</span>
-                <span class="h-px flex-1 bg-zinc-800"></span>
-                <span>Safety Cabinet Retrofit</span>
-              </div>
-              <h3 class="mt-4 text-xl font-semibold text-white">Cleanroom Safety Cabinet Upgrade Program</h3>
-              <p class="mt-3 text-sm leading-relaxed text-zinc-400">
-                Led airflow analysis and retrofit builds for a fleet of laminar flow cabinets. Delivered stronger containment, quieter operation, and service documentation that shortened maintenance cycles.
-              </p>
-              <ul class="mt-4 space-y-2 text-sm text-zinc-400">
-                <li>- Calculated capture velocities and rebalanced filter stages.</li>
-                <li>- Designed modular service panels for rapid access and inspection.</li>
-                <li>- Trained technicians on calibration and ISO cleanroom compliance.</li>
-              </ul>
-              <a href="mailto:you@example.com" class="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-white transition hover:text-zinc-400">
-                Case notes &rarr;
-              </a>
-            </article>
-
-            <article class="group h-full rounded-3xl border border-zinc-800 bg-canvas/60 p-6 transition hover:-translate-y-2 hover:border-white/40">
-              <div class="overflow-hidden rounded-2xl border border-zinc-800">
-                <img src="https://images.unsplash.com/photo-1581092929650-20c92a76dac7?auto=format&fit=crop&w=900&q=80" alt="Stainless steel fabrication components" class="h-48 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
-              </div>
-              <div class="mt-6 flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-zinc-500">
-                <span>2023</span>
-                <span class="h-px flex-1 bg-zinc-800"></span>
-                <span>Stainless Systems</span>
-              </div>
-              <h3 class="mt-4 text-xl font-semibold text-white">Modular Stainless Handling Platform</h3>
-              <p class="mt-3 text-sm leading-relaxed text-zinc-400">
-                Developed welded trolley systems that integrate pneumatic tooling, shadow boards, and sensor mounts. Improved changeover times and reduced ergonomic risk for production teams.
-              </p>
-              <ul class="mt-4 space-y-2 text-sm text-zinc-400">
-                <li>- Built parametric CAD templates for rapid job quoting and fabrication.</li>
-                <li>- Introduced lean pull signals embedded into the trolley layout.</li>
-                <li>- Validated load ratings and fatigue performance with destructive tests.</li>
-              </ul>
-              <a href="mailto:you@example.com" class="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.3em] text-white transition hover:text-zinc-400">
-                See breakdown &rarr;
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-
       <section id="process" class="mx-auto max-w-6xl px-6 py-20 lg:px-8">
         <div class="rounded-3xl border border-zinc-800 bg-surface/70 p-10 backdrop-blur">
-          <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-400">Process Snapshots</h2>
+          <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-200">Process Snapshots</h2>
           <p class="mt-4 max-w-3xl text-2xl font-semibold text-white">
             A repeatable workflow that keeps operators, quality assurance, and production managers aligned.
           </p>
           <div class="mt-10 grid gap-6 md:grid-cols-3">
             <figure class="group overflow-hidden rounded-2xl border border-zinc-800 bg-canvas/70">
               <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418c?auto=format&fit=crop&w=900&q=80" alt="Engineer reviewing airflow data on a laptop" class="h-56 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
-              <figcaption class="p-5 text-sm text-zinc-400">
+              <figcaption class="p-5 text-sm text-zinc-200">
                 Diagnostics runs capture velocity profiles and particle counts before any steel is cut.
               </figcaption>
             </figure>
             <figure class="group overflow-hidden rounded-2xl border border-zinc-800 bg-canvas/70">
               <img src="https://images.unsplash.com/photo-1581093588401-22bf8cd5df02?auto=format&fit=crop&w=900&q=80" alt="Fabricator welding stainless components" class="h-56 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
-              <figcaption class="p-5 text-sm text-zinc-400">
+              <figcaption class="p-5 text-sm text-zinc-200">
                 Stainless fabrication with TIG and CNC fixtures ensures repeatability across batches.
               </figcaption>
             </figure>
             <figure class="group overflow-hidden rounded-2xl border border-zinc-800 bg-canvas/70">
               <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=900&q=80" alt="Lean manufacturing board with task tracking" class="h-56 w-full object-cover grayscale transition duration-500 group-hover:scale-105">
-              <figcaption class="p-5 text-sm text-zinc-400">
+              <figcaption class="p-5 text-sm text-zinc-200">
                 Lean experiments and standard work instructions close the loop and keep teams aligned.
               </figcaption>
             </figure>
@@ -252,23 +234,22 @@
       <section id="contact" class="bg-surface/70">
         <div class="mx-auto flex max-w-6xl flex-col gap-10 px-6 py-20 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>
-            <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-400">Get in Touch</h2>
+            <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-zinc-200">Get in Touch</h2>
             <p class="mt-4 text-3xl font-semibold text-white">
               Open to internships, graduate roles, and collaborations in advanced manufacturing.
             </p>
-            <p class="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400">
+            <p class="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-200">
               Whether you are scaling a cleanroom product line or rolling out lean transformations, I am keen to contribute. Send over a brief and I will reply with availability and ideas.
             </p>
           </div>
-          <div class="flex flex-col gap-4 text-sm uppercase tracking-[0.25em] text-white">
-            <a href="mailto:you@example.com" class="inline-flex items-center gap-3 rounded-full border border-zinc-700 px-6 py-3 transition hover:border-white hover:bg-white hover:text-black">
-              Email you@example.com
+          <div class="grid gap-3 text-sm text-zinc-200">
+            <a href="mailto:reubenford77@gmail.com" class="group block rounded-2xl border border-zinc-700/80 bg-canvas/60 px-6 py-4 transition duration-300 hover:border-white hover:bg-white hover:text-black">
+              <p class="text-xs uppercase tracking-[0.3em] text-zinc-300 group-hover:text-black/70">Email</p>
+              <p class="mt-2 text-base font-semibold text-white group-hover:text-black">reubenford77@gmail.com</p>
             </a>
-            <a href="https://www.linkedin.com" class="inline-flex items-center gap-3 rounded-full border border-zinc-700 px-6 py-3 transition hover:border-white hover:bg-white hover:text-black">
-              LinkedIn linkedin.com/in/your-handle
-            </a>
-            <a href="https://github.com/your-handle" class="inline-flex items-center gap-3 rounded-full border border-zinc-700 px-6 py-3 transition hover:border-white hover:bg-white hover:text-black">
-              GitHub github.com/your-handle
+            <a href="https://linkedin.com/in/reubenford101" class="group block rounded-2xl border border-zinc-700/80 bg-canvas/60 px-6 py-4 transition duration-300 hover:border-white hover:bg-white hover:text-black" target="_blank" rel="noreferrer">
+              <p class="text-xs uppercase tracking-[0.3em] text-zinc-300 group-hover:text-black/70">LinkedIn</p>
+              <p class="mt-2 text-base font-semibold text-white group-hover:text-black">linkedin.com/in/reubenford101</p>
             </a>
           </div>
         </div>
@@ -276,12 +257,12 @@
     </main>
 
     <footer class="border-t border-zinc-800 bg-canvas/90">
-      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-10 text-xs uppercase tracking-[0.25em] text-zinc-500 lg:flex-row lg:items-center lg:justify-between">
-        <p>&copy; 2025 Reuben. Built with Tailwind CSS and a love for clean manufacturing.</p>
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-10 text-xs uppercase tracking-[0.25em] text-zinc-300 lg:flex-row lg:items-center lg:justify-between">
+        <p></p>
         <div class="flex gap-4">
           <a href="#top" class="transition hover:text-white">Back to top</a>
-          <a href="mailto:you@example.com" class="transition hover:text-white">Email</a>
-          <a href="https://www.linkedin.com" class="transition hover:text-white">LinkedIn</a>
+          <a href="mailto:reubenford77@gmail.com" class="transition hover:text-white">Email</a>
+          <a href="https://linkedin.com/in/reubenford101" class="transition hover:text-white" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
     </footer>
