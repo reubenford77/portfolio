@@ -1,4 +1,4 @@
-This large Class II biological safety cabinet with a removable workzone is one of the only of its kind.
+This is a large Class II biological safety cabinet with a removable workzone.
 
 It was custom designed to fit a robot inside.
 
