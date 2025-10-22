@@ -35,14 +35,14 @@
 </head>
 <body class="bg-black text-zinc-100 antialiased font-sans">
   <div class="relative min-h-screen">
-    <header id="top" class="border-b border-white/10 bg-black/90 backdrop-blur">
+    <header id="top" class="border-b-2 border-white/30 bg-black/90 backdrop-blur">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
         <p class="text-[10px] uppercase tracking-[0.55em] text-white/60">Portfolio</p>
         <div class="hidden items-center gap-6 text-[10px] uppercase tracking-[0.45em] text-white/50 md:flex">
           <a href="#projects" class="transition hover:text-white">Projects</a>
           <a href="#contact" class="transition hover:text-white">Contact</a>
         </div>
-        <a href="mailto:reubenford77@gmail.com" class="inline-flex items-center gap-2 border border-white/40 px-4 py-2 text-[10px] uppercase tracking-[0.35em] text-white transition hover:border-white hover:bg-white hover:text-black">
+        <a href="mailto:reubenford77@gmail.com" class="inline-flex items-center gap-2 border-2 border-white/60 px-4 py-2 text-[10px] uppercase tracking-[0.35em] text-white transition hover:border-white hover:bg-white hover:text-black">
           Email
         </a>
       </div>
@@ -52,7 +52,7 @@
       <section class="mx-auto max-w-6xl px-6 py-14 lg:py-20">
         <div class="grid gap-12 lg:grid-cols-[320px_1fr] lg:items-start">
           <div class="relative mx-auto w-full max-w-[400px]">
-            <div class="border-[6px] border-white/10 bg-black p-4 shadow-[0_0_160px_-50px_rgba(255,255,255,0.6)]">
+            <div class="border-[6px] border-white/20 bg-black p-4 shadow-[0_0_160px_-50px_rgba(255,255,255,0.6)]">
               <div class="relative flex aspect-[3/4] flex-col overflow-hidden border-2 border-white/25">
                 <div class="relative flex-1">
                   <img src="assets/images/portrait/portrait.jpg" alt="Portrait of Reuben Ford" class="h-full w-full object-cover" loading="lazy">
@@ -70,13 +70,13 @@
                 I am a final year Mechanical Engineering and Applied Physics student at the University of Technology Sydney. I became an engineer because I want to build new products which push technology forward.
               </p>
               <p class="mt-4 text-sm leading-7 text-white/70">
-                I want to work on hard problems which matter. I love designing and building hardware that solves real problems. I have experience in mechanical design, CAD and manufacturing. Recently I have become interested in lean manufacturing and manufacturing systems.
+                My goal is to to work on hard problems which matter. So far, I have enjoyed designing and building hardware which solves real problems, such as custom biological safety cabinets and HEPA filtration products. I have experience in mechanical design, CAD and manufacturing. Recently I have become very interested in lean manufacturing and manufacturing systems.
               </p>
               <p class="mt-4 text-sm leading-7 text-white/70">
-                Enjoy browsing my portfolio.
+                Below is a collection of various project I have either completed on my own or contributed to.
               </p>
               <div>
-                <a href="assets/ReubenFord_Resume.pdf" class="inline-flex items-center gap-2 border border-white/40 px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.3em] text-white transition hover:border-white hover:bg-white hover:text-black" download>
+                <a href="assets/ReubenFord_Resume.pdf" class="inline-flex items-center gap-2 border-2 border-white/60 px-5 py-3 text-[10px] font-semibold uppercase tracking-[0.3em] text-white transition hover:border-white hover:bg-white hover:text-black" download>
                   Download Resume
                 </a>
               </div>
@@ -85,7 +85,7 @@
         </div>
       </section>
 
-      <section id="projects" class="border-y border-white/10 bg-black">
+      <section id="projects" class="border-y-2 border-white/30 bg-black">
         <div class="mx-auto max-w-6xl px-6 py-16">
           <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
@@ -95,9 +95,22 @@
           </div>
 
           <div class="mt-12 grid gap-10 sm:grid-cols-2 xl:grid-cols-3">
-            <article class="border border-white/15 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.6)]">
-              <div class="border-b border-white/15 bg-black/40">
-                <img src="assets/images/scanning-hepa-module/thumbnail_IMG_8428.jpg" alt="In-wall HEPA scanning module" class="h-56 w-full object-cover" loading="lazy">
+            <article class="border-2 border-white/40 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.7)]">
+              <div class="relative border-b-2 border-white/45 group/gallery" data-gallery data-images='["assets/images/scanning-hepa-module/thumbnail_IMG_8428.jpg","assets/images/scanning-hepa-module/thumbnail_IMG_8430.jpg","assets/images/scanning-hepa-module/thumbnail_IMG_8422.jpg"]' data-alt-root="In-wall HEPA scanning module photo">
+                <div data-gallery-viewport class="flex h-56 w-full items-start justify-center overflow-hidden transition-[height] duration-500 ease-out">
+                  <img src="assets/images/scanning-hepa-module/thumbnail_IMG_8428.jpg" alt="In-wall HEPA scanning module photo" class="w-full h-auto transition duration-500 ease-out" loading="lazy">
+                </div>
+                <button type="button" class="invisible absolute left-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-prev aria-label="Previous photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 -translate-x-px">
+                    <path d="M15 4l-8 8 8 8" />
+                  </svg>
+                </button>
+                <button type="button" class="invisible absolute right-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-next aria-label="Next photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 translate-x-px">
+                    <path d="M9 4l8 8-8 8" />
+                  </svg>
+                </button>
+                <div class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition duration-200 pointer-events-none group-hover/gallery:opacity-100 group-focus-within/gallery:opacity-100 group-hover/gallery:pointer-events-auto group-focus-within/gallery:pointer-events-auto" data-gallery-dots></div>
               </div>
               <div class="p-6 space-y-4">
                 <div class="flex items-start justify-between">
@@ -110,9 +123,22 @@
               </div>
             </article>
 
-            <article class="border border-white/15 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.6)]">
-              <div class="border-b border-white/15 bg-black/40">
-                <img src="assets/images/scanning-capture-hood/thumbnail_IMG_8427.jpg" alt="HEPA filtered capture hood with scanning attachment" class="h-56 w-full object-cover" loading="lazy">
+            <article class="border-2 border-white/40 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.7)]">
+              <div class="relative border-b-2 border-white/45 group/gallery" data-gallery data-images='["assets/images/scanning-capture-hood/thumbnail_IMG_8427.jpg"]' data-alt-root="HEPA capture hood with scanning attachment photo">
+                <div data-gallery-viewport class="flex h-56 w-full items-start justify-center overflow-hidden transition-[height] duration-500 ease-out">
+                  <img src="assets/images/scanning-capture-hood/thumbnail_IMG_8427.jpg" alt="HEPA capture hood with scanning attachment photo" class="w-full h-auto transition duration-500 ease-out" loading="lazy">
+                </div>
+                <button type="button" class="invisible absolute left-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-prev aria-label="Previous photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 -translate-x-px">
+                    <path d="M15 4l-8 8 8 8" />
+                  </svg>
+                </button>
+                <button type="button" class="invisible absolute right-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-next aria-label="Next photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 translate-x-px">
+                    <path d="M9 4l8 8-8 8" />
+                  </svg>
+                </button>
+                <div class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition duration-200 pointer-events-none group-hover/gallery:opacity-100 group-focus-within/gallery:opacity-100 group-hover/gallery:pointer-events-auto group-focus-within/gallery:pointer-events-auto" data-gallery-dots></div>
               </div>
               <div class="p-6 space-y-4">
                 <div class="flex items-start justify-between">
@@ -125,9 +151,22 @@
               </div>
             </article>
 
-            <article class="border border-white/15 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.6)]">
-              <div class="border-b border-white/15 bg-black/40">
-                <img src="assets/images/large-cl2/thumbnail_IMG_8533.jpg" alt="Class II biological safety cabinet with removable worktray" class="h-56 w-full object-cover" loading="lazy">
+            <article class="border-2 border-white/40 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.7)]">
+              <div class="relative border-b-2 border-white/45 group/gallery" data-gallery data-images='["assets/images/large-cl2/largeCL2closed.jpg","assets/images/large-cl2/largeCL2open.jpg"]' data-alt-root="Class II biological safety cabinet photo">
+                <div data-gallery-viewport class="flex h-56 w-full items-start justify-center overflow-hidden transition-[height] duration-500 ease-out">
+                  <img src="assets/images/large-cl2/largeCL2closed.jpg" alt="Class II biological safety cabinet photo" class="w-full h-auto transition duration-500 ease-out" loading="lazy">
+                </div>
+                <button type="button" class="invisible absolute left-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-prev aria-label="Previous photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 -translate-x-px">
+                    <path d="M15 4l-8 8 8 8" />
+                  </svg>
+                </button>
+                <button type="button" class="invisible absolute right-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-next aria-label="Next photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 translate-x-px">
+                    <path d="M9 4l8 8-8 8" />
+                  </svg>
+                </button>
+                <div class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition duration-200 pointer-events-none group-hover/gallery:opacity-100 group-focus-within/gallery:opacity-100 group-hover/gallery:pointer-events-auto group-focus-within/gallery:pointer-events-auto" data-gallery-dots></div>
               </div>
               <div class="p-6 space-y-4">
                 <div class="flex items-start justify-between">
@@ -140,9 +179,22 @@
               </div>
             </article>
 
-            <article class="border border-white/15 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.6)]">
-              <div class="border-b border-white/15 bg-black/40">
-                <img src="assets/images/welded-items/thumbnail_IMG_7832.jpg" alt="Stainless steel welded trolley" class="h-56 w-full object-cover" loading="lazy">
+            <article class="border-2 border-white/40 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.7)]">
+              <div class="relative border-b-2 border-white/45 group/gallery" data-gallery data-images='["assets/images/welded-items/thumbnail_IMG_7832.jpg","assets/images/welded-items/thumbnail_IMG_8011.jpg","assets/images/welded-items/thumbnail_IMG_8371.jpg"]' data-alt-root="Stainless steel fabrication photo">
+                <div data-gallery-viewport class="flex h-56 w-full items-start justify-center overflow-hidden transition-[height] duration-500 ease-out">
+                  <img src="assets/images/welded-items/thumbnail_IMG_7832.jpg" alt="Stainless steel fabrication photo" class="w-full h-auto transition duration-500 ease-out" loading="lazy">
+                </div>
+                <button type="button" class="invisible absolute left-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-prev aria-label="Previous photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 -translate-x-px">
+                    <path d="M15 4l-8 8 8 8" />
+                  </svg>
+                </button>
+                <button type="button" class="invisible absolute right-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-next aria-label="Next photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 translate-x-px">
+                    <path d="M9 4l8 8-8 8" />
+                  </svg>
+                </button>
+                <div class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition duration-200 pointer-events-none group-hover/gallery:opacity-100 group-focus-within/gallery:opacity-100 group-hover/gallery:pointer-events-auto group-focus-within/gallery:pointer-events-auto" data-gallery-dots></div>
               </div>
               <div class="p-6 space-y-4">
                 <div class="flex items-start justify-between">
@@ -155,9 +207,22 @@
               </div>
             </article>
 
-            <article class="border border-white/15 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.6)]">
-              <div class="border-b border-white/15 bg-black/40">
-                <img src="assets/images/solar-bbq/thumbnail_IMG_8281.jpg" alt="Prototype solar barbecue with parabolic reflectors" class="h-56 w-full object-cover" loading="lazy">
+            <article class="border-2 border-white/40 bg-white/5 shadow-[0_40px_80px_-60px_rgba(255,255,255,0.7)]">
+              <div class="relative border-b-2 border-white/45 group/gallery" data-gallery data-images='["assets/images/solar-bbq/thumbnail_IMG_8281.jpg","assets/images/solar-bbq/thumbnail_IMG_8311.jpg"]' data-alt-root="Solar BBQ prototype photo">
+                <div data-gallery-viewport class="flex h-56 w-full items-start justify-center overflow-hidden transition-[height] duration-500 ease-out">
+                  <img src="assets/images/solar-bbq/thumbnail_IMG_8281.jpg" alt="Solar BBQ prototype photo" class="w-full h-auto transition duration-500 ease-out" loading="lazy">
+                </div>
+                <button type="button" class="invisible absolute left-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-prev aria-label="Previous photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 -translate-x-px">
+                    <path d="M15 4l-8 8 8 8" />
+                  </svg>
+                </button>
+                <button type="button" class="invisible absolute right-3 top-1/2 -translate-y-1/2 h-10 w-10 text-white transition duration-200 hover:text-white/70 group-hover/gallery:visible group-focus-within/gallery:visible flex items-center justify-center" data-gallery-next aria-label="Next photo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 translate-x-px">
+                    <path d="M9 4l8 8-8 8" />
+                  </svg>
+                </button>
+                <div class="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2 opacity-0 transition duration-200 pointer-events-none group-hover/gallery:opacity-100 group-focus-within/gallery:opacity-100 group-hover/gallery:pointer-events-auto group-focus-within/gallery:pointer-events-auto" data-gallery-dots></div>
               </div>
               <div class="p-6 space-y-4">
                 <div class="flex items-start justify-between">
@@ -173,7 +238,7 @@
         </div>
       </section>
 
-      <section id="contact" class="border-t border-white/10 bg-black">
+      <section id="contact" class="border-t-2 border-white/30 bg-black">
         <div class="mx-auto max-w-6xl px-6 py-16">
           <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div>
@@ -184,12 +249,12 @@
               </p>
             </div>
             <div class="grid gap-4 sm:grid-cols-2">
-              <a href="mailto:reubenford77@gmail.com" class="group border border-white/15 bg-white/5 p-5 transition hover:border-white hover:bg-white hover:text-black">
+              <a href="mailto:reubenford77@gmail.com" class="group border-2 border-white/45 bg-white/5 p-5 transition hover:border-white hover:bg-white hover:text-black">
                 <p class="text-[10px] uppercase tracking-[0.5em] text-white/50 group-hover:text-black/60">Email</p>
                 <p class="mt-3 text-[14px] font-semibold uppercase tracking-[0.1em] text-white group-hover:text-black">reubenford77@gmail.com</p>
                 <p class="mt-2 text-[12px] leading-6 text-white/65 group-hover:text-black/70">Feel free to send me an email. </p>
               </a>
-              <a href="https://linkedin.com/in/reubenford101" class="group border border-white/15 bg-white/5 p-5 transition hover:border-white hover:bg-white hover:text-black" target="_blank" rel="noreferrer">
+              <a href="https://linkedin.com/in/reubenford101" class="group border-2 border-white/45 bg-white/5 p-5 transition hover:border-white hover:bg-white hover:text-black" target="_blank" rel="noreferrer">
                 <p class="text-[10px] uppercase tracking-[0.5em] text-white/50 group-hover:text-black/60">LinkedIn</p>
                 <p class="mt-3 text-[14px] font-semibold uppercase tracking-[0.1em] text-white group-hover:text-black">linkedin.com/in/reubenford101</p>
                 <p class="mt-2 text-[12px] leading-6 text-white/65 group-hover:text-black/70">I don't use linkedin much but you can find me here. </p>
@@ -200,7 +265,7 @@
       </section>
     </main>
 
-    <footer class="border-t border-white/10 bg-black/90">
+    <footer class="border-t-2 border-white/30 bg-black/90">
       <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-10 text-[10px] uppercase tracking-[0.4em] text-white/50 md:flex-row md:items-center md:justify-between">
         <span>&copy; 2025 Reuben Ford - Mechanical Engineering Portfolio</span>
         <div class="flex gap-4">
@@ -285,6 +350,142 @@
           .replace(/"/g, '&quot;')
           .replace(/'/g, '&#39;');
       }
+
+      const galleries = document.querySelectorAll('[data-gallery]');
+      galleries.forEach((gallery) => {
+        let images = [];
+        try {
+          images = JSON.parse(gallery.dataset.images || '[]');
+        } catch (error) {
+          console.error('Invalid image data for gallery', gallery, error);
+        }
+        if (!images.length) return;
+
+        const imgEl = gallery.querySelector('img');
+        if (!imgEl) return;
+        const viewport = gallery.querySelector('[data-gallery-viewport]');
+
+        const prevBtn = gallery.querySelector('[data-gallery-prev]');
+        const nextBtn = gallery.querySelector('[data-gallery-next]');
+        const dotsContainer = gallery.querySelector('[data-gallery-dots]');
+        const originalAlt = imgEl.alt;
+        const altRoot = gallery.dataset.altRoot || originalAlt || '';
+        let current = 0;
+        let dots = [];
+
+        let isActive = false;
+
+        const adjustHeight = () => {
+          if (!viewport) return;
+          const compute = () => {
+            const width = imgEl.clientWidth;
+            const nw = imgEl.naturalWidth || 0;
+            const nh = imgEl.naturalHeight || 0;
+            if (width && nw && nh) {
+              const target = Math.round((width * nh) / nw);
+              viewport.style.height = `${target}px`;
+            }
+          };
+          if (!imgEl.complete || !imgEl.naturalWidth) {
+            imgEl.addEventListener('load', compute, { once: true });
+          } else {
+            compute();
+          }
+        };
+
+        const collapse = () => {
+          if (!viewport) return;
+          viewport.style.height = '';
+        };
+
+        const update = () => {
+          const src = images[current];
+          if (imgEl.getAttribute('src') !== src) {
+            imgEl.setAttribute('src', src);
+          }
+          if (altRoot) {
+            imgEl.alt = images.length > 1 ? `${altRoot} (${current + 1}/${images.length})` : altRoot;
+          } else {
+            imgEl.alt = originalAlt;
+          }
+          dots.forEach((dot, index) => {
+            if (index === current) {
+              dot.classList.add('bg-white');
+            } else {
+              dot.classList.remove('bg-white');
+            }
+          });
+          if (isActive) adjustHeight();
+        };
+
+        if (dotsContainer) {
+          dotsContainer.innerHTML = '';
+          dots = images.map((_, index) => {
+            const dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'h-2 w-2 rounded-full border border-white/60 transition';
+            dot.setAttribute('aria-label', `Show image ${index + 1}`);
+            dot.addEventListener('click', () => {
+              current = index;
+              update();
+            });
+            dotsContainer.appendChild(dot);
+            return dot;
+          });
+        }
+
+        if (images.length <= 1) {
+          if (prevBtn) prevBtn.classList.add('hidden');
+          if (nextBtn) nextBtn.classList.add('hidden');
+          if (dotsContainer) dotsContainer.classList.add('hidden');
+          update();
+        }
+
+        const buttons = [];
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', () => {
+            current = (current - 1 + images.length) % images.length;
+            update();
+          });
+          buttons.push(prevBtn);
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', () => {
+            current = (current + 1) % images.length;
+            update();
+          });
+          buttons.push(nextBtn);
+        }
+
+        gallery.addEventListener('mouseenter', () => {
+          isActive = true;
+          adjustHeight();
+        });
+
+        gallery.addEventListener('mouseleave', () => {
+          isActive = false;
+          collapse();
+          buttons.forEach((btn) => btn.blur());
+        });
+
+        gallery.addEventListener('focusin', () => {
+          isActive = true;
+          adjustHeight();
+        });
+
+        gallery.addEventListener('focusout', () => {
+          isActive = false;
+          collapse();
+        });
+
+        window.addEventListener('resize', () => {
+          if (isActive) adjustHeight();
+        });
+
+        update();
+      });
     });
   </script>
 </body>
